@@ -59,6 +59,19 @@
      <Compile Include="Assets\Energy Bar Toolkit\Scripts\Editor\MenuItems.cs" />
      <Compile Include="Assets\Energy Bar Toolkit\Scripts\Editor\RepeatRenderer3DInspector.cs" />
      <Compile Include="Assets\Energy Bar Toolkit\Scripts\Editor\SimpleEventInspector.cs" />
+     <Compile Include="Assets\RagePixel\Editor\RagePixelAnimStripGUI.cs" />
+     <Compile Include="Assets\RagePixel\Editor\RagePixelCameraEditor.cs" />
+     <Compile Include="Assets\RagePixel\Editor\RagePixelColorPickerGUI.cs" />
+     <Compile Include="Assets\RagePixel\Editor\RagePixelGUIIcons.cs" />
+     <Compile Include="Assets\RagePixel\Editor\RagePixelHSBColor.cs" />
+     <Compile Include="Assets\RagePixel\Editor\RagePixelPaletteGUI.cs" />
+     <Compile Include="Assets\RagePixel\Editor\RagePixelSpriteEditor.cs" />
+     <Compile Include="Assets\RagePixel\Editor\RagePixelSpriteSheetEditorWindow.cs" />
+     <Compile Include="Assets\RagePixel\Editor\RagePixelSpriteSheetGUI.cs" />
+     <Compile Include="Assets\RagePixel\Editor\RagePixelTexel.cs" />
+     <Compile Include="Assets\RagePixel\Editor\RagePixelTexelRect.cs" />
+     <Compile Include="Assets\RagePixel\Editor\RagePixelTransformInspector.cs" />
+     <Compile Include="Assets\RagePixel\Editor\RagePixelUtil.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\Editor\Editor Logic\Plugins\ITTMPlugin.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\Editor\Editor Logic\TextureManagement\PreviewDictionary.cs" />
      <Compile Include="Assets\Tidy Tile Mapper\Editor\Editor Logic\TextureManagement\TextureDictionary.cs" />
@@ -90,11 +103,26 @@
      <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\HorizontalFillShaderPre.shader" />
      <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\RadialFillShader.shader" />
      <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\UnlitShader.shader" />
+     <None Include="Assets\RagePixel\readme.txt" />
      <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\ExpandFillShader.shader" />
      <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\VerticalFillShaderPre.shader" />
      <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\HorizontalFillShader.shader" />
      <None Include="Assets\Energy Bar Toolkit\README.txt" />
      <None Include="Assets\Energy Bar Toolkit\Example\Fonts\Boogaloo\SIL OFL Font License Boogaloo.txt" />
+     <None Include="Assets\RagePixel\Code\RagePixelBasicFlash.shader" />
+     <None Include="Assets\RagePixel\Code\RagePixelBasic.shader" />
+ <Reference Include="Mad2D">
+ <HintPath>Assets\Energy Bar Toolkit\Scripts\Mad2D.dll</HintPath>
+ </Reference>
+ <Reference Include="MadCommons">
+ <HintPath>Assets\Energy Bar Toolkit\Scripts\MadCommons.dll</HintPath>
+ </Reference>
+ <Reference Include="Mad2D_Editor">
+ <HintPath>Assets\Energy Bar Toolkit\Scripts\Editor\Mad2D_Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="MadCommons_Editor">
+ <HintPath>Assets\Energy Bar Toolkit\Scripts\Editor\MadCommons_Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -112,18 +140,6 @@
  </Reference>
  <Reference Include="UnityEditor.Android.Extensions">
  <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="MadCommons">
- <HintPath>Assets\Energy Bar Toolkit\Scripts\MadCommons.dll</HintPath>
- </Reference>
- <Reference Include="Mad2D">
- <HintPath>Assets\Energy Bar Toolkit\Scripts\Mad2D.dll</HintPath>
- </Reference>
- <Reference Include="MadCommons_Editor">
- <HintPath>Assets\Energy Bar Toolkit\Scripts\Editor\MadCommons_Editor.dll</HintPath>
- </Reference>
- <Reference Include="Mad2D_Editor">
- <HintPath>Assets\Energy Bar Toolkit\Scripts\Editor\Mad2D_Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
